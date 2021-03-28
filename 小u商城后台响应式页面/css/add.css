@@ -1,0 +1,245 @@
+@charset "utf-8";
+.container{
+    width: 100%;
+}
+.content ul .xing{
+    position: relative;
+}
+.content ul .xing::before{
+content: "";
+width: 7px;
+height: 8px;
+background: url(../images/添加商品-PC_03.png) no-repeat 0 0;
+position: absolute;
+left: -16px;
+top: 12px;
+}
+.header{
+    font: 30px/80px "微软雅黑";
+    color: white;
+    background-color: #ea967a;
+    text-indent: 50px;
+}
+.content{
+    background-color: #ececec;
+    width: 100%;
+}
+.content ul li{
+    font: 15px/30px "微软雅黑";
+    margin-left: 34px;
+    margin-bottom: 30px;
+
+}
+.content ul li:nth-child(1){
+    font: 20px/84px "微软雅黑";
+
+}
+.content ul li input{
+    width: 55%;
+    height: 30px;
+    background-color: white;
+    border: 1px solid #cbcbcb;
+    margin-left: 26px;
+
+}
+.content ul li .one{
+margin-left: 41px;
+text-indent: 20px;
+}
+.content ul li:nth-child(5) div{
+    border: 1px solid #d6d6d6;
+}
+.content ul li:nth-child(5) input{
+width: 16px;
+height: 16px;
+border: 1px solid #c5c5c5;
+margin-left: 10px;
+margin-right: 5px;
+}
+.content ul li:nth-child(5) div {
+    padding-right: 11px;
+    margin-right: 5px;
+}
+.content ul li:nth-child(5) div:nth-of-type(1){
+    margin-left: 27px;
+}
+.content ul li:nth-child(5) .but{
+    font: 12px/30px "微软雅黑";
+    color: white;
+    background-color: #438eb8;
+    width: 72px;
+    height: 34px;
+}
+.content ul li:nth-child(6) input{
+margin-left: 0;
+width: 154px;
+height: 26px;
+
+}
+.content ul li:nth-child(6) div{
+    margin-right: 20%;
+}
+
+.content ul li:nth-child(6) .three{
+    margin-right: 0;
+}
+.content ul li:nth-child(8) input,
+.content ul li:nth-child(9) input
+{
+width: 16px;
+height: 16px;
+border: 1px solid #c8c8c8;
+}
+.content ul li:nth-child(8) .two{
+    margin-left: 40px;
+}
+.content ul li:nth-child(9) .two{
+    margin-left: 40px;
+}
+.content ul li:nth-child(10) input{
+    width: 180px;
+    height: 21px;
+    background-color: #ececec;
+    border: none;
+}
+.content ul li:nth-child(11) textarea{
+    width: 92%;
+    height: 200px;
+    vertical-align: top;
+    margin-left: 26px;
+}
+.content ul li:nth-child(12){
+    margin-bottom: 0;
+    padding-bottom: 30px;
+}
+.content ul li:nth-child(12) div{
+   width: 340px;
+    margin:  0 auto;
+}
+.content ul li:nth-child(12) input{
+    color: white;
+    background-color: #4c83bb;
+    font: 12px/33px "微软雅黑";
+    text-align: center;
+    width: 86px;
+    margin: 0;
+    margin-right: 40px;
+}
+.content ul li:nth-child(12) .two{
+    background-color: #e29676;
+}
+.content ul li:nth-child(12) .three{
+    background-color: #b3b3b5;
+    margin-right: 0;
+}
+@media all and (max-width:991px){
+    .content ul li{
+        margin-left: 0;
+        margin-left: 26px;
+    }
+    .content ul li span{
+        display: block;
+    }
+    .content ul li input{
+        width: 92%;
+        margin-left: 0px;
+    }
+    .content ul li:nth-child(4) input{
+        margin-left: 8px;
+    }
+    .content ul li:nth-child(5) div{
+        width: 47%;
+        margin-top: 13px;
+        
+float: none;
+    }
+    .content ul li:nth-child(5) div:nth-of-type(1){
+        margin-left: 0;
+    }
+    .content ul li:nth-child(5) .but{
+        float: right;
+       position: relative;
+       right: 30%;
+       top: -150px;
+    }
+    .content ul li:nth-child(5) p{
+float: none;
+    }
+
+.content ul li:nth-child(6) div{
+    float: none;
+    margin-right: 0;
+}
+.content ul li:nth-child(6) div input{
+    width: 89%;
+}
+.content ul li:nth-child(7) span{
+    display: block;
+}
+.content ul li:nth-child(11) textarea{
+    width: 92%;
+    margin-left: 0;
+}
+}
+@media all and (max-width:767px){
+    .content ul li{
+        margin-left: 0;
+        margin-left: 26px;
+    }
+    .content ul li span{
+        display: block;
+    }
+    .content ul li input{
+        width: 92%;
+        margin-left: 0px;
+    }
+    .content ul li:nth-child(4) input{
+        margin-left: 8px;
+    }
+    .content ul li:nth-child(5) div{
+        width: 47%;
+        margin-top: 13px;
+        
+float: none;
+    }
+    .content ul li:nth-child(5) div:nth-of-type(1){
+        margin-left: 0;
+    }
+    .content ul li:nth-child(5) .but{
+        float: right;
+       position: relative;
+       right: 12%;
+       top: -150px;
+    }
+    .content ul li:nth-child(5) p{
+float: none;
+    }
+
+.content ul li:nth-child(6) div{
+    float: none;
+    margin-right: 0;
+}
+.content ul li:nth-child(6) div input{
+    width: 89%;
+}
+.content ul li:nth-child(7) span{
+    display: block;
+}
+.content ul li:nth-child(11) textarea{
+    width: 92%;
+    margin-left: 0;
+}
+.content ul li:nth-child(12) input{
+    width: 24%;
+    margin-right: 10%;
+}
+.content ul li:nth-child(12) div{
+    width: 100%;
+}
+.header{
+    font: 13px/80px "微软雅黑";
+    color: white;
+    background-color: #ea967a;
+    text-indent: 50px;
+}
+}
